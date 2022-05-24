@@ -6,7 +6,7 @@ if getal == 0
 	puts "0 is geen priemgetal"
 else
 	testgetal = 2
-	while testgetal < getal / 2
+	while testgetal < getal
 		if getal % testgetal == 0
 			count = count + 1
 		end
